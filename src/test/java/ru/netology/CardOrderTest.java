@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CardOrderTest {
     private WebDriver driver;
-    ChromeOptions options =new ChromeOptions();
+    ChromeOptions options = new ChromeOptions();
 
     @BeforeAll
     static void setUpAll() {
