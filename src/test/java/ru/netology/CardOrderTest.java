@@ -25,8 +25,8 @@ public class CardOrderTest {
     @BeforeEach
     void SetUp() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximized");
-        options.addArguments("disable-infobars");
+        // options.addArguments("start-maximized");
+        // options.addArguments("disable-infobars");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
